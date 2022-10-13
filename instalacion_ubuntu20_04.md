@@ -32,4 +32,17 @@ En este apartado tendremos que seleccionar el tamaño del disco que querramos us
 ![](img/cap5.png)
 
 ### 1.5 Selección del Sistema para la máquina virtual
-Una vez que hayamos hecho todos los pasos anteriores, se cerrará la pestaña en la cual estabamos configurando la máquina virtual
+>Si hemos hecho todos los pasos anteriores, se cerrará la pestaña en la cual estabamos configurando la máquina virtual y veremos que se ha creado correctamente
+
+Ahora tendremos que entrar a la configuración de la máquina que hemos creado e iremos al apartado de "Almacenamiento"
+
+![](img/cap6.png)
+
+Cuando esteamos en ese apartado clickaremos en el disco y le daremos a  "Selecciona sistema de disco..." y seleccionaremos la ISO del sistema operativo que querramos utilizar.
+
+![](img/cap7.png)
+
+> Una vez insertada la ISO, aceptaremos los cambios y ejecutaremos la máquina. 
+
+## 2 Instalación del Sistema Operativo
+El primer paso será seleccionar el idioma que querramos realizar la instalación (En este caso será el Español)
