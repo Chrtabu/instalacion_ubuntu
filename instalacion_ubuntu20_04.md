@@ -45,4 +45,46 @@ Cuando esteamos en ese apartado clickaremos en el disco y le daremos a  "Selecci
 > Una vez insertada la ISO, aceptaremos los cambios y ejecutaremos la máquina. 
 
 ## 2 Instalación del Sistema Operativo
-El primer paso será seleccionar el idioma que querramos realizar la instalación (En este caso será el Español)
+El primer paso será seleccionar el idioma que querramos realizar la instalación (En este caso será el Español) y le daremos a "Instalar Ubuntu".
+
+![](img/cap%208.png)
+
+### 2.1 Selección de Idioma
+>Nos aparecerá una lista de paises, esto aparece para la selección de el idioma del teclado según el pais, en nuestro caso tambien le daremos a "España" y le daremos a "Continuar".
+
+![](img/cap9.png)
+
+### 2.2 Tipo de Instalación 
+En esta pestaña tendremos que seleccionar el tipo de instalación que preferimos en nuestro sistema, en este caso haremos una Instalación Mínima y le daremos a actualizar.
+
+![](img/cap10.png)
+
+### 2.3 Elección de  disco duro
+El último paso para instalar el Sistema Operativo será borrar y eliminar las particiones del disco duro, en este caso seleccionamos la opción de "Borrar disco e instalar Ubuntu" y le damos a Instalar.
+
+![](img/cap11.png)
+
+### 2.4 Eleccion de ubicación
+> En este apartado solo tendremos que indicar la uubicación desde la cual instalamos el sistema.
+
+![](img/cap12.png)
+
+### 2.5 Indicación de datos del equipo de inicio de sesión y de seguridad
+
+En esta pestaña tendremos que añadir un nombre de usuario y una contraseña que nos servirá luego para iniciar sesión.
+
+![](img/cap13.png)
+
+### 2.6 Instalacion
+>Una vez hecho los pasos anteriores nos aparecerá la pestaña siguiente, lo que significará que ya se está instalando el Sistema Operativo.
+
+![](img/cap14.png)
+
+### 2.7 Reinicio del Sistema
+>Cuando haya acabado el proceso de instalacion nos aparecerá una pestaña que nos pedirá que reiniciamos el Sistema Operativo, le daremos a "Reiniciar Ahora" y cuando se haya reiniciado ya lo tendríamos completado.
+
+![](img/cap15.png)
+
+Y ya tendremos instalado Ubuntu.
+
+![](img/cap16.png)
