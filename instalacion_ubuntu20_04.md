@@ -85,6 +85,157 @@ En esta pestaña tendremos que añadir un nombre de usuario y una contraseña qu
 
 ![](img/cap15.png)
 
+### Instalacion de las Guesst Additions
+Ahora instalaremos las Guesst Additions, para ello tendremos que dirigirnos a dispositivos y le daremos a "Insertar imagen CD de las Guesst Additions"
+
+Una vez hayamos clickado nos aparecera si lo querremos ejecutar, le daremos a "Aceptar" y nos aparecerá lo siguiente:
+
+![](img/cosa1.png)
+
 Y ya tendremos instalado Ubuntu.
 
 ![](img/cap16.png)
+
+## 3 Actualización del Sistema
+> En este apartado nos dedicaremos a actualizar e instalar paquetes de ubuntu, los cuales no tenemos descargados por haber realizado una instalación básica.
+
+### 3.1 Terminal
+El primer paso para la instalacion de paquetes, será abrir un terminar, para ello haremos click derecho en el escritorio y luego le daremos a "Abrir en una terminal"
+
+![](img/foto1.png)
+
+### 3.1 Instalación por comandos
+Una vez que hayamos abierto el terminal, tendremos que instalar con paquetes a través de comando, los comando serán los siguientes.
+
+>Nota: Después de ejecutar cada comando con *sudo*  nos pedirá nuestra contraseña.
+~~~
+> sudo apt update
+~~~
+![](img/foto2.png)
+~~~
+> sudo apt upgrade
+~~~
+
+![](img/foto3.png)
+
+Nos preguntará si queremos continuar, le indicaremos que si, para ello escribiremos "y" y le daremos a enter.
+
+![](img/foto4ç.png)
+
+Una vez hayamos hecho esto tendremos el Sistema con los paquetes actualizados.
+
+### Instalación de Fish 
+Ahora Instalaremos el paquete "Fish", para ello ejecutaremos los siguientes comandos:
+~~~
+> sudo apt-add-repository ppa:fish-shell/release-3
+~~~
+
+![](img/pescado1.png)
+
+~~~
+> sudo apt update
+~~~
+![](img/pescado2.png)
+~~~
+> sudo apt install fish
+~~~
+
+![](img/pescado3.png)
+
+Ahora entraremos en el shell de fish, para ello el comando sera:
+
+~~~
+Fish
+~~~
+
+![](img/pez1.png)
+
+
+Antes de nada instalaremos Curl, el cuál mecesitaremos para instalar Fish.
+
+~~~
+sudo apt install curl
+~~~
+
+![](img/curl1.png)
+
+### Instalación de Pure
+
+Ahora intalaremos el Pure, para eso usaremos el siguiente comando:
+
+~~~
+fisher install pure-fish/pure
+~~~
+
+![](img/pure1.png)
+
+
+### Instalación de pluggins de fish.
+
+## Instalación de plugging Jorgebucaran
+
+Una vez hecho esto volveremos a la instalación de  de pluggins de Fish, para ello usaremos el siguiente comando.
+
+~~~
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+~~~
+
+![](img/pez2.png)
+
+~~~
+fisher install jorgebucaran/nvm.fish
+~~~
+
+![](img/pez3.png)
+
+~~~
+fisher install IlanCosman/tide@v5
+~~~
+Nos aparecerá lo siguiente:
+
+![](img/pez4.png)
+
+Aqui tendremos que seleccionar el estilo que querramos usar, en mi caso es el siguiente.
+
+![](img/pez5.png)
+ 
+## 2.0 Instalación de PatrickF1.
+
+Ahora instalaremos el segundo plugging, para ello usaremos el siguiente comando.
+
+~~~
+fisher install patrickf1/colored_man_pages.fish
+~~~
+
+![](img/f16.png)
+
+Ahora mostraremos los comandos para su uso.
+
+~~~
+man less
+~~~
+
+![](img/less.png)
+
+~~~
+command man less
+~~~
+
+![](img/less%202.png)
+
+~~~
+cless git help merge
+~~~
+![](img/merge.png)
+
+~~~
+cless git help log
+~~~
+
+![](img/help.png)
+
+### 3.2 
+
+
+
+
