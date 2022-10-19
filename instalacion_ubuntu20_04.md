@@ -234,7 +234,85 @@ cless git help log
 
 ![](img/help.png)
 
-### 3.2 
+### 3.2 Instalación de Git
+
+>Ahora instalaremos Git en nuestra máquina virtual, para ello usaremos los siguientes comandos
+
+~~~
+sudo add-apt-repository ppa:git-core/ppa
+~~~
+![](img/git1.png)
+
+~~~
+sudo apt update
+~~~
+![](img/git2.png)
+
+~~~
+sudo apt install git
+~~~
+![](img/git3.png)
+
+>Ahora comprobaremos la version de Git.
+
+~~~
+git version
+~~~
+![](img/git4.png)
+
+## 3.3 Configuración de fish como Shell por defecto
+
+~~~
+which fish
+~~~
+
+![](img/fish1.png)
+
+~~~
+chsh -s /usr/bin/fish
+~~~
+
+![](img/fish2.png)
+
+### 3.4 Configuración de Git
+>Una vez hechos instalado Git tendremos que configurarlo
+
+~~~
+cd ~
+git config --global user.name "AQUI VA TU NOMBRE"
+git config --global user.email AQUI_VA_TU_EMAIL@WHATEVER.COM
+git config --global core.editor AQUI_VA_TU_EDITOR
+git config --global init.defaultBranch main
+~~~
+
+![](img/confgit1.png)
+
+~~~
+git config --list --show-origin
+~~~
+
+![](img/confgit2.png)
+
+
+## 4 Clonación repositorio git en otra máquina
+>En este apartado clonaremos nuestro repositorio Git en el sistema que hemos creado en esta práctica.
+
+### 4.1 Instalación de SSH
+
+~~~
+sudo apt-get install openssh-client
+~~~
+![](img/ssh1.png)
+
+
+### 4.2 Generación de claves SSH 
+~~~
+cd ~
+ssh-keygen -t ed25519 -C "christiantabada15@gmail.com"
+~~~
+![](img/ssh2.png)
+
+
 
 
 
