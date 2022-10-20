@@ -312,8 +312,45 @@ ssh-keygen -t ed25519 -C "christiantabada15@gmail.com"
 ~~~
 ![](img/ssh2.png)
 
+~~~
+bash
+eval "$(ssh-agent -s)"
+fish
+~~~
 
+![](img/ssh3.png)
 
+#### Clave Privada del SSh
+~~~
+ssh-add ~/.ssh/id_ed25519
+~~~
+![](img/ssh4.png)
 
+~~~
+sudo apt install xclip
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+~~~
+
+![](img/ssh5.png)
+
+![](img/ssh6.png)
+
+## 5 Agregar clave ssh a Github
+Este paso lo tendremos que hacer en Git hub, para ello entraremos a nuestro perfil y luego iremos a "Configuración" y luego a "SSH and GPG keys" y le daremos a "New SSH Key" y completaremos conel nombre de la LLave Ssh y completar con nuestra llave.
+
+![](img/ssh7.png)
+
+### Clonación
+Lo siguiente que tendremos que hacer será ir al repositorio que vamos a clonar, y añadiremos la clave SSH.
+
+![](img/ssh8.png)
+
+Ahora nos dirigiremos de nuevo al terminal de nuestra máquina y pondremos el siguiente comando con la key del SSH.
+
+~~~
+git  clone [enlace del repositorio copiado]
+~~~
+
+![](img/ssh9.png)
 
 
