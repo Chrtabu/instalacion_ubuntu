@@ -293,6 +293,15 @@ git config --list --show-origin
 
 ![](img/confgit2.png)
 
+Y ahora editaremos con "nano" y añadiremos lo siguiente
+~~~
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+~~~
+
+![](img/git1231246.png)
+
+
 
 ## 4 Clonación repositorio git en otra máquina
 >En este apartado clonaremos nuestro repositorio Git en el sistema que hemos creado en esta práctica.
